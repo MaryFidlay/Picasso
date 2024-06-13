@@ -1,0 +1,162 @@
+.white_box {
+  position: relative;
+  z-index: 3;
+  width: 768px;
+  height: 768px;
+  margin-top: 100px;
+  margin-left: 0px;
+  border: dashed;
+}
+
+.first_painting {
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(16, 122, 122);
+  width: 220px;
+  height: 110px;
+  margin-left: 30px;
+  top: 200px;
+}
+
+.second_painting {
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(16, 122, 122);
+  width: 220px;
+  height: 110px;
+  top: 200px;
+  margin-left: 280px;
+}
+
+.thrid_painting {
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(16, 122, 122);
+  width: 220px;
+  height: 110px;
+  top: 200px;
+  margin-left: 530px;
+}
+
+.fourth_painting {
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(16, 122, 122);
+  width: 735px;
+  height: 500px;
+  top: 300px;
+  margin: 20px;
+}
+
+.fifth_painting {
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(35, 202, 63);
+  width: 735px;
+  height: 20px;
+  top: 810px;
+  margin: 20px;
+}
+
+.dot {
+  background-color: yellow;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 230px;
+  z-index: 3;
+  margin-left: 180px;
+}
+
+.dot1 {
+  background-color: pink;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 210px;
+  z-index: 3;
+  margin-left: 40px;
+}
+
+.dot2 {
+  background-color: pink;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 210px;
+  z-index: 3;
+  margin-left: 300px;
+}
+
+.dot3 {
+  background-color: pink;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 270px;
+  z-index: 3;
+  margin-left: 40px;
+}
+
+.dot4 {
+  background-color: pink;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 260px;
+  z-index: 3;
+  margin-left: 220px;
+}
+
+.dot5 {
+  background-color: yellow;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 3;
+  top: 400px;
+  margin-left: 100px;
+}
+
+.triangule {
+  position: absolute;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 600px solid #075015;
+  bottom: px;
+  z-index: 3;
+  top: 220px;
+  margin-left: 300px;
+}
+
+.triangule1 {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 400px solid hwb(59 8% 19%);
+  position: absolute;
+  bottom: -260px;
+  z-index: 3;
+  top: 420px;
+}
+
+.form {
+  background-color: aqua;
+  display: flex;
+  display: inline-flexbox;
+  background: #075015;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
